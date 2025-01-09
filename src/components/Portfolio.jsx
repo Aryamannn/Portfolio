@@ -463,12 +463,12 @@ const Portfolio = () => {
         animate="animate"
         className="text-center"
       >
-        <motion.h1 
-          variants={fadeInUp}
-          className="text-4xl md:text-6xl font-bold mb-6"
-        >
-          Hi, I'm <span className="text-amber-500">Aryaman Mishra</span>
-        </motion.h1>
+       <motion.h1 
+  variants={fadeInUp}
+  className="text-4xl md:text-6xl font-bold mb-6"
+>
+  Hi, I&apos;m <span className="text-amber-500">Aryaman Mishra</span>
+</motion.h1>
         <motion.p 
           variants={fadeInUp}
           className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto"
