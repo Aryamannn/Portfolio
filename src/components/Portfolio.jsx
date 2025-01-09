@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, Github, Linkedin } from 'lucide-react';
 import Image from "next/image";
+import Photo from '../app/profile.jpg';
 import { motion } from 'framer-motion';
 
 // Animation configurations
@@ -449,7 +450,7 @@ const Portfolio = () => {
         className="w-48 h-48 mb-8 rounded-full overflow-hidden shadow-xl border-4 border-amber-500/20 bg-gradient-to-br from-amber-500/20 to-transparent"
       >
         <Image 
-          src="/profile.jpg"
+          src={Photo}
           alt="Aryaman Mishra"
           width={192}
           height={192}
